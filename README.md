@@ -33,3 +33,13 @@
 - **xdescribe(...)**
     - disabled the complete test suite.
     - x before any function, disables that test.
+- **fDescribe(...)**
+ - f -> Focus on a specific test suite.
+    - Can put fif(...) -> will only focus on specific spec.
+- **HttpClientTestingModule**
+    - Includes a mock implementation of an HttpService.
+    - Has all the same methods as a real HttpService.
+    - Returns test data, that we define.
+- **HttpTestingController**
+    - Controller to be injected into tests, that allows for mocking and flushing.
+
